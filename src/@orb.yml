@@ -1,11 +1,12 @@
 version: 2.1
 
 description: >
-  ORB used for deployment purposes
+  ORB used for deployment and maintenance purposes in vatbox-env repository.
+  It can be used to deploy via terraform and run scheduled maintenance jobs.
 
 # This information will be displayed in the orb registry and is not mandatory.
 display:
-  home_url: "https://www.example.com/docs"
+  home_url: "https://github.com/dejanstojcevskisourcico/circleci-orb"
   source_url: "https://github.com/dejanstojcevskisourcico/circleci-orb"
 
 # If your orb requires other orbs, you can import them like this. Otherwise remove the "orbs" stanza.
